@@ -1,6 +1,6 @@
 # Telemetry Lab 
 
-An Android app built with **Jetpack Compose**, **ForegroundService**, **Macrobenchmark**, and **Baseline Profiles**.
+An Android app built with **Jetpack Compose**, **ForegroundService**, **Macrobenchmark**.
 
 ## Features
 - Foreground service simulating edge inference pipeline.
@@ -16,3 +16,5 @@ An Android app built with **Jetpack Compose**, **ForegroundService**, **Macroben
 ## Modules
 - `app/` → Main app.
 - `benchmark/` → Macrobenchmark tests.
+
+![Demo](app/src/main/res/drawable/screenshot.jpeg)

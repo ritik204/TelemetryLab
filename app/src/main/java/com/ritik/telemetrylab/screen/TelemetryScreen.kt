@@ -40,6 +40,7 @@ fun TelemetryScreen(
         horizontalAlignment = Alignment.CenterHorizontally) {
 
         if (uiState.isPowerSave) {
+            viewModel.updateLoad(1)
             Box(
                 modifier = Modifier
                     .fillMaxWidth()
